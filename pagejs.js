@@ -21,5 +21,3 @@ function openPage(pageName, elmnt, color) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
-
-$("Welcome").delay(1000).animate({ opacity: 1 }, 700);
