@@ -37,6 +37,18 @@
     #News {background-color: purple;}
     #Contact {background-color: blue;}
     #About {background-color: lightblue;}
+
+    .Welcome {
+      animation: fadeIn ease 2s;
+    }
+    @keyframes fadeIn {
+      0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+    }
   </style>
 </head>
 
@@ -44,6 +56,10 @@
 <button class="tablink" onclick="openPage('News', this, 'Teal')">News</button>
 <button class="tablink" onclick="openPage('Contact', this, 'Teal')">Contact</button>
 <button class="tablink" onclick="openPage('About', this, 'Teal')">About</button>
+
+<div id="Welcome">
+  <img src="welcome.png">
+</div>
 
 <div id="Home" class="tabcontent">
   <h3>Home</h3>
